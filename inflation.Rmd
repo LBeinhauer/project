@@ -60,3 +60,16 @@ with(mtcars, plot(hp, mpg))
 ```{python}
 print("Hello World! Python here, do you miss R already?")
 ```
+
+
+```{r}
+usethis::use_git_config(
+  user.name = "Lukas Beinhuaer", # <-- change to your name
+  user.email = "lukas.beinhauer@gmail.com", # <-- and your email
+  init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
+
+
+usethis::use_git()
+
+```
+
