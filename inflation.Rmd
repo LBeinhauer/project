@@ -60,4 +60,7 @@ with(mtcars, plot(hp, mpg))
 `r 9+3`
 
 
+## Testing for Changes
+
+Additionally, we know that 8 is the sum of 5 and 3: 8+5=`r 5+3`
 
